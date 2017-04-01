@@ -1,0 +1,27 @@
+.guangpan{
+    background: url("../images/guangpan.png") 0 -1px;
+    width: 499px;
+    height: 500px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -249.5px;
+    margin-top: -250px;
+    transform-origin: 249px 250px;
+    animation: guangpan linear 60s infinite;
+}
+@keyframes guangpan{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+.yuandian{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ff0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+}
